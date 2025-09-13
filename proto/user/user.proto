@@ -28,6 +28,7 @@ message DeleteUserRequest {
   uint32 id = 1;
 }
 message DeleteUserResponse {
+  bool success = 1;
 }
 
 message ListUsersRequest {

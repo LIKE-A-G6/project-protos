@@ -6,3 +6,4 @@ generate:
 
 clean:
 	powershell -Command "Remove-Item -Force proto/task/*.pb.go; Remove-Item -Force proto/user/*.pb.go"
+	
